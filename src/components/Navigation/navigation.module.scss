@@ -1,0 +1,25 @@
+.list {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  margin: 0;
+}
+
+.link {
+  cursor: pointer;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  opacity: 0.6;
+}
+
+.element {
+  margin-right: 15px;
+}
+
+.element:last-of-type {
+  margin-right: 0;
+}
